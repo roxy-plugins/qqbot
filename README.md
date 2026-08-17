@@ -1,3 +1,3 @@
 # qqbot
 
-Akashic QQBot channel plugin.
+Roxy QQBot channel plugin.
