@@ -33,8 +33,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
         with:
-          repository: namei32/roxy-agent
-          ref: e9bded1791a08cd945c2e1a0a7433bb141f83f65
+          # 公开的冻结 host 合同夹具；canonical Roxy Core 保持私有。
+          repository: kachofugetsu09/akashic-agent
+          ref: 2bf05e320103bf63b67693d114fd2433fd10a0ea
           path: .roxy-agent
       - uses: actions/setup-python@v5
         with:
